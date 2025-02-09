@@ -20,6 +20,3 @@ app.get('/', (req, res)=>{
 app.use('/api/usuarios', require('./routes/usuario'))
 
 module.exports = app;
-
-
-
