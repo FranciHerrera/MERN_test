@@ -32,6 +32,11 @@ const Navegacion = () => {
                   Crear usuario
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/BuscarPorNombre">
+                  Buscar por nombre
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
